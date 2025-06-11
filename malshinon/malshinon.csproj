@@ -95,12 +95,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="intel\intelReport.cs" />
+    <Compile Include="MalshinonDAL\DAL.cs" />
+    <Compile Include="managementDAL\managementDAL.cs" />
+    <Compile Include="management\management.cs" />
+    <Compile Include="person\person.cs" />
+    <Compile Include="PrintManager\PrintManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reporter\reporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
